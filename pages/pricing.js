@@ -55,7 +55,7 @@ export default function Pricing() {
                                     <p className="text-gray-600 text-center">Show the menu with QR code</p>
                                 </div>
                                 <div className="flex flex-col items-center justify-end"> 
-                                    <div className="p-6">
+                                    <div className="pb-6 md:p-6">
                                         <h1 className="font-black text-color text-4xl lg:text-7xl pb-6 text-center">29₺</h1>
                                         <button className="bg-gray-600 text-xl text-white py-2 px-6 rounded-md group-hover:bg-blue-650 transition-colors duration-300">Get Started</button>
                                     </div>
@@ -69,7 +69,7 @@ export default function Pricing() {
                                     <p className="text-gray-600 text-center">Show the menu with QR code and take order</p>
                                 </div>
                                 <div className="flex flex-col items-center justify-end"> 
-                                    <div className="p-6">
+                                    <div className="pb-6 md:p-6">
                                         <h1 className="font-black text-color text-4xl lg:text-7xl pb-6 text-center">59₺</h1>
                                         <button className="bg-gray-600 text-xl text-white py-2 px-6 rounded-md group-hover:bg-blue-650 transition-colors duration-300">Get Started</button>
                                     </div>
@@ -83,7 +83,7 @@ export default function Pricing() {
                                     <p className="text-gray-600 text-center">Show the menu with QR code, take order and take payment online</p>
                                 </div>
                                 <div className="flex flex-col items-center justify-end"> 
-                                    <div className="p-6">
+                                    <div className="pb-6 md:p-6">
                                         <h1 className="font-black text-color text-4xl lg:text-7xl pb-6 text-center">99₺</h1>
                                         <button className="bg-gray-600 text-xl text-white py-2 px-6 rounded-md group-hover:bg-blue-650 transition-colors duration-300">Get Started</button>
                                     </div>
