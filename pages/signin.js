@@ -21,7 +21,7 @@ export default function SignIn() {
                                         Email
                                     </label>
                                     <input
-                                        className="w-full mx-auto px-4 py-3 leading-snug text-gray-700 border rounded-xl appearance-none shadow-sm focus:outline-none"
+                                        className="w-full mx-auto px-4 py-3 leading-snug text-gray-700 border rounded-xl appearance-none shadow-md focus:outline-none"
                                         id="email"
                                         type="email"
                                         placeholder="Email"
@@ -32,13 +32,13 @@ export default function SignIn() {
                                         Password
                                     </label>
                                     <input
-                                        className="w-full mx-auto px-4 py-3 leading-snug text-gray-700 border rounded-xl appearance-none shadow-sm focus:outline-none"
+                                        className="w-full mx-auto px-4 py-3 leading-snug text-gray-700 border rounded-xl appearance-none shadow-md focus:outline-none"
                                         id="password"
                                         type="password"
                                         placeholder="Password"
                                     />
                                 </div>
-                                <a href="/password" className="flex items-center justify-center text-center mb-4 hover:text-gray-600">Forgot your password</a>
+                                <a href="/forgotpassword" className="flex items-center justify-center text-center mb-4 hover:text-gray-600">Forgot your password</a>
                                 <div className="text-center">
                                     <Link href="/">
                                         <button
